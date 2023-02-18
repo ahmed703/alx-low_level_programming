@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <unistd.h>
+
 /**
- * main - Entry point
- * Description: 'The description is here'
- * Return: Always 0 (success)
+ * main - Prints 3 combination of numbers
+ *
+ * Return: Always (Success)
  */
 int main(void)
 {
@@ -13,13 +13,13 @@ int main(void)
 	{
 		for (i = '0'; i <= '9'; i++)
 		{
-			for (j = '0'; j <= '9'; j++)
+			for (k = '0'; k <= '9'; k++)
 			{
-				if (c < i && i < j)
+				if (c < i && i < k)
 				{
 					putchar(c);
 					putchar(i);
-					putchar(j);
+					putchar(k);
 
 					if (c != '7')
 					{
